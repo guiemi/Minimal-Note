@@ -1,19 +1,36 @@
-<template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
-  </div>
-</template>
 
-<script>
-import HelloWorld from './components/HelloWorld'
+<script type="text/javascript">
+// import NoteList from './components/NoteList'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  props: ["notes"],
+//   name: 'App',
+//   components: {
+//     NoteList,
+//   },
+
+//   data(){
+//     return {
+//       notes:[{
+//         title: "Note A",
+//         project: "Project A",
+//         important: false,
+//       }, {
+//         title: "Note B",
+//         project: "Project B",
+//         important: true,
+//       }, {
+//         title: "Note C",
+//         project: "Project C",
+//         important: false,
+//       }, {
+//         title: "Note D",
+//         project: "Project D",
+//         important: false,
+//       }]
+//     }
+//   }
+ }
 </script>
 
 <style>
